@@ -38,7 +38,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     font-family: "Open Sans",Arial, sans-serif;
     font-weight: 400;
@@ -55,17 +54,30 @@ img {
 }
 
 h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75em;
 }
 
 p {
-
+    line-height: 1.5;
 }
 
 a {
-    color: deeppink;
+    color:#e71d36 ;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    text-decoration: underline;
+}
+h1,
+h2,
+h3{
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+
 }
