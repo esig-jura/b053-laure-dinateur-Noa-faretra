@@ -34,6 +34,86 @@
 }
 
 
+/****************************************************
+
+                Entête de la page
+
+ **********************************************************/
+header {
+    background-color: #011627;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header .nom,
+header .metier{
+    color: #2ec4b6;
+    font-family: "Changa One", cursive;
+    font-weight: 400;
+    font-size: 1.75em;
+
+}
+header .metier {
+    color: #e71d36;
+    font-size: 1em;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+}
+header nav a {
+    font-weight: bold;
+    color: #fdfffc;
+    padding: 1em 0;
+}
+header nav a:hover,
+header nav a.actif {
+    color: #2ec4b6;
+}
+
+header nav li:first-of-type{
+    display: none;
+}
+
+/****************************************************
+
+                PIED DE PAGE
+
+ **********************************************************/
+footer  {
+    text-align: center;
+    padding-top: 50px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+footer ul img {
+    width: 50px;
+    filter: grayscale(1);
+    transition: all 400ms;
+}
+footer ul img:hover {
+    width: 70px;
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
 
 * {
     box-sizing: border-box;
@@ -45,6 +125,7 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
+    margin: 0;
 }
 
 img {
