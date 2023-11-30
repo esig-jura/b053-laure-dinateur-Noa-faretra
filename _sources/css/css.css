@@ -135,8 +135,24 @@ footer ul img:hover {
 
 .contact-infos ul li {
     margin-bottom: 0.5em;
+    background-repeat: no-repeat;
+    background-size: 20px 20px ;
+    background-position: 0 2px;
+    padding: 0 0 0 30px;
 }
 
+.phone{
+    background-image: url(../images/phone.png);
+}
+.twitter{
+    background-image: url(../images/twitter.png);
+}
+.facebook{
+    background-image: url(../images/facebook.png);
+}
+.Mail{
+    background-image: url(../images/mail.png);
+}
 .contact-infos ul img{
     max-width:20px;
 }
