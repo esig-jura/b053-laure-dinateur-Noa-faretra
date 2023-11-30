@@ -107,10 +107,23 @@ footer ul img:hover {
     filter: grayscale(0);
 }
 
+/****************************************************
 
+                 PAGE QUI SUIS-JE
 
+ **********************************************************/
 
+.page-infos h1{
+    text-align: center;
+}
+.page-infos .photos{
+    text-align: center;
+}
+.page-infos img {
+    max-width: 200px;
 
+    border-radius: 100px;
+}
 
 
 
@@ -153,7 +166,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 h1,
 h2,
