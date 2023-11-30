@@ -121,11 +121,28 @@ footer ul img:hover {
 }
 .page-infos img {
     max-width: 200px;
-
     border-radius: 100px;
 }
+/****************************************************
 
+                 PAGE CONTACT
 
+ **********************************************************/
+.contact-infos ul{
+    list-style-type: none;
+    margin: 0 0 0 10px;
+}
+
+.contact-infos ul li {
+    margin-bottom: 0.5em;
+}
+
+.contact-infos ul img{
+    max-width:20px;
+}
+main{
+    margin: 0 5%;
+}
 
 
 * {
