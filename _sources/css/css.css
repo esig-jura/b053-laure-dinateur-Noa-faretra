@@ -166,9 +166,7 @@ footer ul img:hover {
     background-image: url(../images/mail.png);
 }
 
-.contact-infos ul img {
-    max-width: 20px;
-}
+
 
 main {
     margin: 0 5%;
@@ -224,4 +222,20 @@ h3 {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
 
+}
+/****************************************************
+
+                PAGE INDEX
+
+ **********************************************************/
+
+main ul{
+    display:inline-block;
+    justify-content: center;
+}
+main ul li{
+    width: 45%;
+    vertical-align:top;
+    list-style-type: none;
+    margin : 2.5% 2.5%;
 }
