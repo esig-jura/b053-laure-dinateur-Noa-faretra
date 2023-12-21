@@ -24,6 +24,7 @@
     font-weight: 700;
     src: url('../fonts/open-sans-v36-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* changa-one-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -47,13 +48,14 @@ header {
 }
 
 header .nom,
-header .metier{
+header .metier {
     color: #2ec4b6;
     font-family: "Changa One", cursive;
     font-weight: 400;
     font-size: 1.75em;
 
 }
+
 header .metier {
     color: #e71d36;
     font-size: 1em;
@@ -66,17 +68,19 @@ header nav ul {
     gap: 1.5em;
     justify-content: center;
 }
+
 header nav a {
     font-weight: bold;
     color: #fdfffc;
     padding: 1em 0;
 }
+
 header nav a:hover,
 header nav a.actif {
     color: #2ec4b6;
 }
 
-header nav li:first-of-type{
+header nav li:first-of-type {
     display: none;
 }
 
@@ -85,10 +89,11 @@ header nav li:first-of-type{
                 PIED DE PAGE
 
  **********************************************************/
-footer  {
+footer {
     text-align: center;
     padding-top: 50px;
 }
+
 footer ul {
     list-style: none;
     padding: 0;
@@ -102,6 +107,7 @@ footer ul img {
     filter: grayscale(1);
     transition: all 400ms;
 }
+
 footer ul img:hover {
     width: 70px;
     filter: grayscale(0);
@@ -113,22 +119,25 @@ footer ul img:hover {
 
  **********************************************************/
 
-.page-infos h1{
+.page-infos h1 {
     text-align: center;
 }
-.page-infos .photos{
+
+.page-infos .photos {
     text-align: center;
 }
+
 .page-infos img {
     max-width: 200px;
     border-radius: 100px;
 }
+
 /****************************************************
 
                  PAGE CONTACT
 
  **********************************************************/
-.contact-infos ul{
+.contact-infos ul {
     list-style-type: none;
     margin: 0 0 0 10px;
 }
@@ -136,27 +145,32 @@ footer ul img:hover {
 .contact-infos ul li {
     margin-bottom: 0.5em;
     background-repeat: no-repeat;
-    background-size: 20px 20px ;
+    background-size: 20px 20px;
     background-position: 0 2px;
     padding: 0 0 0 30px;
 }
 
-.phone{
+.phone {
     background-image: url(../images/phone.png);
 }
-.twitter{
+
+.twitter {
     background-image: url(../images/twitter.png);
 }
-.facebook{
+
+.facebook {
     background-image: url(../images/facebook.png);
 }
-.Mail{
+
+.Mail {
     background-image: url(../images/mail.png);
 }
-.contact-infos ul img{
-    max-width:20px;
+
+.contact-infos ul img {
+    max-width: 20px;
 }
-main{
+
+main {
     margin: 0 5%;
 }
 
@@ -164,10 +178,11 @@ main{
 * {
     box-sizing: border-box;
 }
+
 body {
-    font-family: "Open Sans",Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;/*120%*/
+    font-size: 1.2rem; /*120%*/
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
@@ -184,6 +199,7 @@ h1 {
     font-size: 2rem;
     margin-bottom: 1em;
 }
+
 h2 {
     font-size: 1.5rem;
     margin-bottom: 0.75em;
@@ -194,16 +210,17 @@ p {
 }
 
 a {
-    color:#e71d36 ;
+    color: #e71d36;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
 }
+
 h1,
 h2,
-h3{
+h3 {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
 
