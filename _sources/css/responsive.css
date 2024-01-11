@@ -1,0 +1,53 @@
+/*Pour les écrans >= 480px*/
+@media only screen and (min-width: 480px){
+    .page-index .realisations li{
+        flex-basis: 33%; /*Taille de base pour 3 colonnes*/
+        flex-grow: 3;
+    }
+
+    .page-infos .photo {
+        float:left;
+        margin-right: 5%;
+        margin-bottom: 20px;
+    }
+
+    .page-contact .cols{
+        display: flex;
+        gap:10%;
+    }
+
+    .page-contact .cols section{
+        flex-basis:45%;
+    }
+}
+
+@media only screen and (min-width: 660px){
+    header{
+        border-bottom : 5px solid #2ec4b6;
+        display : flex;
+        gap :10%;
+        padding-bottom: .5rem;
+    }
+    header a {
+        flex-basis : 48%;
+        text-align : left;
+        padding-left: 5%;
+    }
+    header a .nom{
+        font-size:2.5rem;
+    }
+    header nav{
+        flex-basis: 42%;
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 910px){
+    header .accueil{
+        display: inline;
+    }
+    main{
+        max-width: 910px;
+        margin: 5%;
+    }
+}

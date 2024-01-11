@@ -6,26 +6,15 @@
     <!-- Ajuste la taille de la page aux différents appareils : pc, mobiles, tablettes -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Titre de la page. Visible dans l'onglet du navigateur -->
-    <title>Accueil | Laure Dinateur - Graphiste</title>
+    <title>Accueil | Laure Dinateur</title>
     <!-- Auteur -->
-    <meta name="author" content="Noa Faretra">
+    <meta name="author" content="Maelle Huguenin-Dezot">
     <!-- Icône de base du site : FAVICON -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <!-- fonts et typographie-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap"
-          rel="stylesheet">
-    <!-- fonts et typographie-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Open+Sans&family=Signika+Negative&display=swap"
-          rel="stylesheet">
-    <!-- ajout du css-->
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
-
+<body class="page-index">
 <header>
     <a href="index.html">
         <div class="nom">Laure Dinateur</div>
@@ -33,54 +22,60 @@
     </a>
     <nav>
         <ul>
-            <li><a href="index.html" class="actif">Accueil</a></li>
-            <li><a href="base.html">Qui suis-je ?</a></li>
+            <li><div class="accueil"><a href="index.html" class="actif">Accueil</a></div></li>
+            <li><a href="informations.html">Qui suis-je ?</a></li>
             <li><a href="contact.html">Me contacter</a></li>
         </ul>
     </nav>
 </header>
 <main>
-
     <!-- Titre principal (unique) de la page -->
     <h1>Mes réalisations</h1>
-    <ul>
-
+    <ul class="realisations">
         <li>
-            <figure><img src="images/numbers-01.jpg" alt="numéro un">
-                <figcaption><a href="images/numbers-01.jpg" target="_blank">Expérimentation de couleurs</a></figcaption>
+            <figure>
+                <img src="img/numbers-01.jpg" alt="Expérimentation de couleurs">
+                <figcaption>
+                    <a href="img/numbers-01.jpg" target="_blank">Expérimentation de couleurs</a>
+                </figcaption>
             </figure>
         </li>
-
         <li>
-            <img src="images/numbers-02.jpg" alt="numéro deux">
+            <a href="img/numbers-02.jpg" target="_blank">
+                <img src="img/numbers-02.jpg" alt="Jeu de fondus">Jeu de fondus
+            </a>
         </li>
         <li>
-            <img src="images/numbers-06.jpg" alt="numéro six">
+            <a href="img/numbers-06.jpg" target="_blank">
+                <img src="img/numbers-06.jpg" alt="80's style">80's style
+            </a>
         </li>
         <li>
-            <img src="images/numbers-09.jpg" alt="numéro neuf">
+            <a href="img/numbers-09.jpg" target="_blank">
+                <img src="img/numbers-09.jpg" alt="Travail avec les pinceaux">Travail avec les pinceaux
+            </a>
         </li>
         <li>
-            <img src="images/numbers-12.jpg" alt="numéro douze">
+            <a href="img/numbers-12.jpg" target="_blank">
+                <img src="img/numbers-12.jpg" alt="Répétition de formes">Répétition de formes
+            </a>
         </li>
     </ul>
 </main>
 <footer>
-    <nav>
-        <ul>
-            <li>
-                <a href="https://twitter.com/lauredi">
-                    <img src="images/twitter-draw.png" alt="Voir mon twitter">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/laure.dinateur">
-                    <img src="images/facebook-draw.png" alt="Vers mon Facebook">
-                </a>
-            </li>
-        </ul>
-        <div>&copy;2023 Laure Dinateur</div>
-    </nav>
+    <ul>
+        <li>
+            <a href="https://twitter.com/lauredi">
+                <img src="img/twitter-draw.png" alt="Voir mon twitter">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/laure.dinateur">
+                <img src="img/facebook-draw.png" alt="Voir mon facebook">
+            </a>
+        </li>
+    </ul>
+    &copy;2023 Laure Dinateur
 </footer>
 </body>
 </html>
